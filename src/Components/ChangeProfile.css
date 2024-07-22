@@ -1,0 +1,52 @@
+/* ChangeProfile.css */
+
+/* Container Styling */
+.ChangeProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input Styling */
+  .ChangeProfile input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .ChangeProfile input[type="text"]:focus {
+    border-color: #61dafb;
+    box-shadow: 0 0 4px rgba(97, 218, 251, 0.5);
+    outline: none;
+  }
+  
+  /* Button Styling */
+  .ChangeProfile button {
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .ChangeProfile button:hover {
+    background-color: #21a0a0;
+  }
+  
+  .ChangeProfile button:active {
+    transform: scale(0.98);
+  }
+  

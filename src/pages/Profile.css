@@ -1,0 +1,79 @@
+/* Profile.css */
+
+/* Profile Container */
+.Profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* User Info */
+  .Profile .username {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  /* ChangeProfile Component Container */
+  .Profile .ChangeProfileContainer {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Input Styling */
+  .Profile input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Styling */
+  .Profile button {
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .Profile button:hover {
+    background-color: #21a0a0;
+  }
+  
+  .Profile button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .Profile {
+      padding: 1rem;
+    }
+  
+    .Profile .username {
+      font-size: 1.2rem;
+    }
+  
+    .Profile input[type="text"] {
+      font-size: 0.9rem;
+    }
+  
+    .Profile button {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  

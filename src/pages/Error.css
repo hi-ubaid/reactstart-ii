@@ -1,0 +1,39 @@
+/* Error.css */
+
+/* Container Styling */
+.Error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /* Heading Styling */
+  .Error h1 {
+    font-size: 2.5rem;
+    color: #e74c3c;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Message Styling */
+  .Error p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .Error h1 {
+      font-size: 2rem;
+    }
+  
+    .Error p {
+      font-size: 1rem;
+    }
+  }
+  
